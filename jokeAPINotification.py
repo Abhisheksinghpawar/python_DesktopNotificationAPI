@@ -19,10 +19,12 @@ def getFact(data):
 
 while True:
     data = random.choice(["fact","joke"])
+    message = getFact(data)
     notification.notify(
         title="Here's your "+data+" !",
-        message=getFact(data),
+        message=message,
         app_icon = None,
         timeout = 15
     )
+    print(message)
     time.sleep(30)
