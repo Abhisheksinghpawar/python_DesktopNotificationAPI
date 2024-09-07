@@ -1,6 +1,4 @@
 '''https://api-ninjas.com/profile'''
-'''UN - abhisheksinghpawar17@gmail.com'''
-'''PWD - Metroplaza17'''
 '''DATE CREATED 6 SEPT 2024 - TESTED ON VSCODE'''
 
 import time
